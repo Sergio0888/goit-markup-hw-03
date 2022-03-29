@@ -1,0 +1,335 @@
+body {
+    background-color: var(--brandColor);
+    font-family: 'Roboto', sans-serif;
+    width: 1600px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    color:#212121;
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+:root {
+    --brandColor: #ffffff;
+    --brandcolorone: #757575;
+    --brandcolortwo: #2196f3;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    padding: 24px 215px 25px 215px;
+    border-bottom: 1px solid #ECECEC;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+.link-list {
+    display: flex;
+    margin-right: 50px;
+    margin-left: 93px;
+}
+.link {
+    margin-right: 50px;
+    color: #212121;
+    align-items: center;
+}
+.link:hover,
+.link:focus {
+    color: var(--brandcolortwo);
+}
+.list-contact {
+    display: flex;
+    align-items: center;
+    margin-left: 205px;
+}
+.link-contact {
+    color: var(--brandcolorone);
+}
+.link-item {
+    margin-left: 50px;
+}
+.link-contact:hover,
+.link-contact:focus {
+    color: var(--brandcolortwo);
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.20;
+    color: #212121;
+    text-decoration: none;
+}
+.logo > span {
+    color: var(--brandcolortwo);
+    text-decoration: none;
+}
+.active:hover,
+.active:focus {
+    color: var(--brandcolortwo);
+}
+.active {
+    text-decoration: none;
+    color: var(--brandcolortwo);
+}
+
+/* Секция 1 */
+
+.section-hero {
+    background-color: #2F303A;
+    padding: 200px 452px;
+}
+.menu-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+.menu-button h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: var(--brandColor);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    width: 696px;
+    height: 120px;
+}
+.mainbutton {
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--brandColor);
+    background-color: var(--brandcolortwo);
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+
+}
+
+/* Секция 2 */
+
+.section-main {
+    padding: 94px 215px;
+}
+.main-container {
+    display: flex;
+}
+.none-hide {
+    display: none;
+}
+.details {
+    display: flex;
+}
+.details-item > h3 {
+    margin-bottom: 10px;
+}
+.details-item {
+    margin-right: 30px;
+}
+.section-main h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    text-transform: uppercase;
+}
+.section-main p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--brandcolorone);
+}
+
+/* Разделение */
+
+.block-work {
+    margin-top: 94px;
+}
+.title-work {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.list-work {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Секция 3 */
+
+.section-team {
+    background-color: #F5F4FA;
+    padding: 94px 215px;
+}
+.team-list {
+    display: flex;
+    justify-content: space-between;
+}
+.section-team h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.section-team h3 {
+    font-size: 16px;
+    line-height: 1.19;
+    margin-top: 30px;
+    text-align: center;
+}
+.section-team p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--brandcolorone);
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.team-item {
+    background-color:  var(--brandColor); 
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+/* Футер */
+.footer {
+    padding: 60px 1154px 60px 215px;
+    background-color: #2F303A;
+}
+
+.contact-list {
+    margin-top: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.72;
+    color: var(--brandColor);
+}
+.link-footer {
+    font-size: 14px;
+    line-height: 1.72;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+.link-footer:hover,
+.link-footer:focus {
+    color: var(--brandcolortwo);
+}
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.20;
+    color: var(--brandColor);
+
+}
+.logo-footer > span {
+    color: var(--brandcolortwo);
+    text-decoration: none;
+}
+
+.address-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--brandColor);
+    text-decoration:none;
+}
+.contact-item {
+    margin-bottom: 9px;
+}
+
+
+
+/* Страница: Портфолио */
+
+/* Кнопки */
+
+.section-page {
+    padding: 94px 215px;
+}
+.block-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.page-title {
+    display: none;
+}
+.page-button {
+    display: flex;
+}
+.page-button button {
+    padding: 6px 22px;
+    margin-right: 8px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    cursor: pointer;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    border: none;
+}
+.page-button button:hover,
+.page-button button:focus {
+    color: var(--brandColor);
+    background-color: var(--brandcolortwo);
+}
+
+
+/* Картинки */
+
+
+.image-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.image-list  h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.image-list  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--brandcolorone);
+}
+.image-item {
+    padding: 20px 24px;
+    box-sizing: border-box;
+    border: 1px solid #EEEEEE;
+    border-top: none;
+    border-top-width: 110px;
+}
+.image-item-li {
+    margin-bottom: 30px;
+}
